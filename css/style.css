@@ -1,0 +1,45 @@
+p {
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-weight: 500;
+}
+.navbar {
+  background-color: #fbbb90 !important;
+}
+
+.navbar a {
+  font-family: Helvetica;
+  font-weight: 600;
+  color: #464f6a;
+}
+button {
+  background-color: #fbbb90;
+}
+.landingPage {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+#datapengguna {
+  padding-top: 3 rem;
+  margin-bottom: 3 rem;
+}
+#content {
+  background-color: #fbbb90;
+  margin-bottom: 3rem;
+  border-radius: 30px !important;
+}
+
+.fitur {
+  background-color: #ffdac1 !important;
+}
+
+footer {
+  background-color: #fbbb90;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#copyright {
+  background-color: grey;
+  height: 60px;
+  text-align: initial;
+}
