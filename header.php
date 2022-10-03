@@ -1,3 +1,5 @@
+<?php include "connect.php";?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,8 +48,15 @@
             <a class="nav-link" href="profil.php">Profil</a>
           </li>
           <li class="nav-item ">
+          <?php 
+          if (empty($_SESSION['username']) ) {?>
           <a href="login.php"> <button id="button" type="button"  class="btn text-light" style="--bs-btn-border-radius: 30rem; background-color: #464F6A">Masuk</button></a>
+
+          <?php }else{ ?>
+            <a href="logout.php"> <button id="button" type="button"  class="btn text-light" style="--bs-btn-border-radius: 30rem; background-color: #464F6A">Keluar</button></a>
+          <?php } ?>
           </li>
+
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">

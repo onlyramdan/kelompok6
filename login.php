@@ -1,5 +1,16 @@
 
 <?php include "header.php"; ?>
+<?php 
+	if(isset($_GET['pesan'])){
+		if($_GET['pesan'] == "gagal"){
+			echo "Login gagal! username dan password salah!";
+		}else if($_GET['pesan'] == "logout"){
+			echo "Anda telah berhasil logout";
+		}else if($_GET['pesan'] == "belum_login"){
+			echo "Anda harus login untuk mengakses dashboard";
+		}
+	}
+	?>
 <div class="container">
     <div class="row">
         <div class="col">
@@ -15,8 +26,7 @@
                     <input type="password" class="form-control rounded-pill" id="password" name="password" placeholder="Password">
                 </div>
                 <div class="mb-5 d-grid gap-2 col-6 mx-auto">
-                    <input id="button" type="submit" class="btn text-light mt-5 shadow" style="--bs-btn-border-radius: 30rem; background-color: #fbbb90;" value="Login" width="20px">
-                    <a class="text-center" style="color: white;" href="./daftar.php"><p>Daftar Akun</p></a>
+                <input type="submit" class="btn text-light mt-5 shadow" style="--bs-btn-border-radius: 30rem; background-color: #fbbb90;" value="Login">
                 </div>
             </form>
         </div>

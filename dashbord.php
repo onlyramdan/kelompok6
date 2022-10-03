@@ -1,6 +1,7 @@
 <?php include "header.php";?>
-<?php 
-	session_start();
+
+<?php
+
 	if($_SESSION['status']!="login"){
 		header("location:./login.php?pesan=belum_login");
 	}
