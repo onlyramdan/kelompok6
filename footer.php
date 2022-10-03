@@ -1,7 +1,6 @@
   <!-- Footer -->
-  <footer class="text-light pb-3" style="  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-">
+  <footer class="text-light pb-3 shadow-lg" style="  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;">
       <div class="container">
         <div class="row">
           <div class="col">
