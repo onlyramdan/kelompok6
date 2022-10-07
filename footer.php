@@ -80,8 +80,13 @@
               Youtube
             </p>
           </div>
-          <div class="col">
+          <div class="col";">
             <h5>Site Maps</h5>
+            <a style="text-decoration: none; color:white;" href="./index.php"><p>Beranda</p></a>
+            <a style="text-decoration: none; color:white;" href="./legalisasi.php"><p>Legalisasi</p></a>
+            <a style="text-decoration: none; color:white;" href="./event.php"><p>Event</p></a>
+            <a style="text-decoration: none; color:white;" href="./pelatihan.php"><p>Pelatihan</p></a>
+            <a style="text-decoration: none; color:white;" href="./artikel.php"><p>Artikel</p></a>
           </div>
           <div class="col text-center mt-5">
             <img src="./asset/img/logo4.svg" alt="">
@@ -89,9 +94,11 @@
         </div>
       </div>
     </footer>
+
   <!-- Akhir Footer -->
   <!-- Javascript -->
   <script src="./js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
  

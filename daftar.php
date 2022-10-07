@@ -38,7 +38,8 @@
                 <input id="button" type="submit" class="btn text-light mt-5 shadow" style="--bs-btn-border-radius: 30rem; background-color: #fbbb90" value="Daftar" width="20px">
             </div>
         </div>
-        <div class="col">
+        <div class="col text-center mt-5 mx-left-5">
+            <img src="./asset/img/daftar.svg" alt="daftar" width="400px">
         </div>
     </div>
 </form>

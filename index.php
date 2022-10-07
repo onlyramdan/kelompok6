@@ -18,6 +18,16 @@
       </div>
   </div>
   <!-- Akhir Landing Page -->
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <div class="col text-center mt-5">
+        <img src="./asset/img/Bangga.svg" alt="Bangga" width="400">
+      </div>
+      <div class="col">
+      <iframe class="rounded-4" style="--bs-btn-border-radius: 30rem;" width="560" height="315" src="https://www.youtube.com/embed/Opksxsx8Sjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+  </div>
+  </div>
   <!-- Content -->
   <div id="content" class="container shadow-lg p-3 rounded">
     <div class="row">
@@ -62,13 +72,13 @@
     <div class="container text-center">
       <div class="row">
         <div class="col">
-          <h3>satu</h3>
+          <img src="./asset/img/fitur 1.svg" alt="fitur1" width="325px">
         </div>
         <div class="col">
-        <h3>dua</h3>
+        <img src="./asset/img/fitur 2.svg" alt="fitur2" width="325px">
         </div>
         <div class="col">
-        <h3>tiga</h3>
+        <img src="./asset/img/fitur 3.svg" alt="fitur3" width="325px">
         </div>
         </div>
       </div>

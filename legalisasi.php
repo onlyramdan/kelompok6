@@ -79,15 +79,15 @@ include "connect.php";
         <div class="col" >
             <img src="./asset/img/tata-cara-daftar.svg" alt="tata_cara_daftar" width="600px">
         </div>
-        <div class="col">
-        
+        <div class="col text-center">
+          <img src="./asset/img/legal.png" alt="legalisasi" width="400px">
         </div>
     </div>
     <div class="row">
-        <div class="col">
-            
+        <div class="col text-center">
+          <img src="./asset/img/legalisasi2.svg" alt="legalisasi" width="380px">
         </div>
-        <div class="col">
+        <div class="col mb-5">
             <img src="./asset/img/tata-cara-daftar-2.svg" alt="tatacaradaftar" width="600px">
         </div>
     </div>
